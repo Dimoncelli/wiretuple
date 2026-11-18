@@ -1,0 +1,14 @@
+# build output
+/bin/
+*.exe
+
+# local tooling caches
+/.gotmp/
+
+# shadow audit databases
+*.db
+*.db-journal
+*.db-wal
+
+# personal launch notes and drafts, kept local only
+/LAUNCH_KIT.md
