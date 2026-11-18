@@ -5,6 +5,8 @@ Calling — losslessly.** `wiretuple` is a single-binary HTTP reverse proxy
 written in Go with zero external dependencies: your app keeps calling the same
 API, and repeated JSON keys become positional tuples on the wire.
 
+![wiretuple terminal demo](docs/demo.gif)
+
 ```
 client ──► wiretuple ──► upstream API
               │
